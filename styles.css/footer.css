@@ -1,0 +1,15 @@
+.footera {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+.footerb {
+    padding: 15px;
+    text-align: center;
+}
+.socialfooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}

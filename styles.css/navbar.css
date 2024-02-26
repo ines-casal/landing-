@@ -1,0 +1,41 @@
+.nav {
+    background-color: rgb(59, 59, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    height: 15%;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+}
+
+.social {
+    display: flex;
+    justify-items: center;
+    align-items: right;
+}
+.social-logo {
+    padding: 4px;
+}
+.btn-menu {
+    background-color: white;
+    color: blue;
+    border: 1px;
+    border-radius: 8px;
+    padding: 8px;
+}
+.btn-menu:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.sticky-wrapper {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 0 rgba(0,0,0,.2);
+ }

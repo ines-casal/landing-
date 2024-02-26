@@ -1,0 +1,14 @@
+.bannermenu {
+    height: 50vh;
+    background-image: url("../images/vuelrp.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titre {
+    display: flex;
+    justify-content: center;
+  }

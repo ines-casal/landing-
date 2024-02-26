@@ -1,0 +1,29 @@
+.prods {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    justify-content: center;
+}
+.prod {
+    background-color: white;
+    box-shadow: 1px 1px 6px 2px #002557;
+    padding: 16px;
+    border-radius: 7px;
+    text-align: center;
+}
+.titremenu h3, .titremenu p {
+    color: #002557;
+    display: flex;
+    justify-content: center;
+}
+.titremenu {
+    padding: 10px 0px;
+
+}
+.prodo {
+    display: inline-flex;
+    justify-content: center;
+    width: 24%;
+    padding: 16px 0px;
+
+}

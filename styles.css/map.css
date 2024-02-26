@@ -1,0 +1,15 @@
+.map {
+    padding: 5px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+}
+.texte {
+    background-color: #002557;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px 2px #002557;
+    padding: 100px 10px;
+    text-align: center;
+}
+

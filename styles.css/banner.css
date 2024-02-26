@@ -1,0 +1,22 @@
+.banner {
+    height: 80vh;
+    background-image: url("../images/lrp_loin.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1, .banner p{
+    color: white;
+    text-shadow: 1px 1px 7px black;
+    }
+
+    .banner a {
+        background-color: rgb(43, 121, 255);
+        color: white;
+        padding: 8px;
+        border-radius: 8px;
+        text-shadow: 1px 1px 7px black;
+    }
